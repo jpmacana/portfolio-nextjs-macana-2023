@@ -7,6 +7,7 @@ import { BiChevronLeft } from 'react-icons/bi';
 import { RiRadiosButtonFill } from 'react-icons/ri';
 
 import netflix from '../../public/assets/netflix-clone.png';
+import twich from '../../public/assets/twich-clone.png';
 import videogames from '../../public/assets/pi-videogames-main-nine.vercel.app.png';
 import momentum from '../../public/assets/momemtum-app.png';
 import weather from '../../public/assets/weather-app.png';
