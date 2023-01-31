@@ -15,6 +15,15 @@ import todo from '../../public/assets/todo-app.png';
 
 const portfolios = [
 	{
+		id: 0,
+		image: twich,
+		title: 'Twich Clone',
+		url: 'Twich Clone',
+		github: 'https://github.com/jpmacana/twich-nextjs-macana',
+		demo: 'https://twich-nextjs-macana.vercel.app/',
+		text: 'Twitch in Next.JS styled with Tailwind CSS and as a bonus we will even add NextAuth.js for authentication using Github & Google! Routing and the Image component as we take advantage of lazy loading images! We will be creating everything from scratch and even using some mock data from https://mockaroo.com and utilizing Headless UI!',
+	},
+	{
 		id: 1,
 		image: videogames,
 		title: 'PI - Videogames',

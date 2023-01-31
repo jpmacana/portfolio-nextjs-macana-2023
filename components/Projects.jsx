@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import netflix from '../public/assets/netflix-clone.png';
+import twich from '../public/assets/twich-clone.png';
 import videogames from '../public/assets/pi-videogames-main-nine.vercel.app.png';
 import momentum from '../public/assets/momemtum-app.png';
 import weather from '../public/assets/weather-app.png';
@@ -23,6 +24,14 @@ const Projects = () => {
 
 		{
 			id: 2,
+			image: twich,
+			title: 'Twich Clone',
+			url: 'Twich Clone',
+			github: 'https://github.com/jpmacana/twich-nextjs-macana',
+			demo: 'https://twich-nextjs-macana.vercel.app/',
+		},
+		{
+			id: 3,
 			image: netflix,
 			title: 'Netflix Clone',
 			url: 'Netflix Clone',
@@ -31,7 +40,7 @@ const Projects = () => {
 		},
 
 		{
-			id: 3,
+			id: 4,
 			image: weather,
 			title: 'Weather App',
 			url: 'Weather App',
@@ -39,7 +48,7 @@ const Projects = () => {
 			demo: 'https://weather-app-macana.netlify.app',
 		},
 		{
-			id: 4,
+			id: 5,
 			image: momentum,
 			title: 'Momemtun App',
 			url: 'Momemtun App',
@@ -47,7 +56,7 @@ const Projects = () => {
 			demo: 'https://momentum-clone-macana.vercel.app/',
 		},
 		{
-			id: 5,
+			id: 6,
 			image: youtube,
 			title: 'MacanaTube',
 			url: 'MacanaTube',
@@ -55,7 +64,7 @@ const Projects = () => {
 			demo: 'https://travel-world-app-jpmacana.vercel.app/',
 		},
 		{
-			id: 6,
+			id: 7,
 			image: todo,
 			title: 'To Do App',
 			url: 'To Do App',
